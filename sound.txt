@@ -1,0 +1,4 @@
+# loading gamesounds = {} pygame.mixer.init(44100, -16, 1, 512) gamesounds["bounce"] = pygame.mixer.Sound("bounce.ogg­") gamesounds["laser"] = pygame.mixer.Sound("laser.ogg"­)
+
+#play them where you want with: ﻿ gamesounds["bounce"].play()
+
